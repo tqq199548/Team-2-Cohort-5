@@ -1,5 +1,114 @@
-# Team Project
+# Team-2 Project
+# Population Figures Analysis
 
+This project is a comprehensive data science and machine learning initiative focused on analyzing and forecasting population figures at the country, regional (e.g., Asia), and global levels. Through robust data processing, exploratory data analysis (EDA), and predictive modeling, we seek to uncover demographic trends and provide actionable insights for policymakers, urban planners, and researchers.
+
+## Directory Structure
+├── data │ 
+├── processed # Cleaned and transformed datasets │ 
+├── raw # Original, unprocessed data files │ 
+└── sql # SQL queries and database scripts for data extraction 
+├── experiments # Experimentation scripts and Jupyter notebooks 
+├── models # Trained machine learning models and serialized files 
+├── reports # Analysis reports, visualizations, and documentation 
+├── src # Source code for data processing, EDA, and model development 
+├── README.md # Project overview and instructions 
+└── .gitignore # Git ignore file
+
+## Project Objectives
+
+- **Data Aggregation & Processing:**  
+  Collect, clean, and preprocess population datasets from reputable sources.
+
+- **Exploratory Data Analysis (EDA):**  
+  Identify historical trends, regional disparities, and anomalies within the population data.
+
+- **Predictive Modeling:**  
+  Develop and fine-tune machine learning models (e.g., time series forecasting, regression analysis) to predict future population figures.
+
+- **Insight Generation:**  
+  Extract actionable insights that support strategic decision-making in urban planning, healthcare, education, and other sectors.
+
+## Data Sources
+
+Population data is sourced from:
+- **World Bank Population Data**
+- **United Nations Demographic Statistics**
+- Additional public datasets as needed
+
+> **Note:** Please review and adhere to the terms and conditions of each data source.
+
+## Methodology
+
+1. **Data Collection & Preprocessing:**  
+   - Raw data is stored in `data/raw` and cleaned/transformed data is placed in `data/processed`.
+   - SQL scripts for data extraction and transformation are maintained in `data/sql`.
+
+2. **Exploratory Data Analysis (EDA):**  
+   - Perform descriptive statistics and visualization to understand historical trends and regional variations.
+   - Identify key patterns, trends, and potential outliers across different time periods.
+
+3. **Machine Learning Modeling:**  
+   - Implement and compare multiple forecasting models (e.g., ARIMA, Prophet, regression models).
+   - Source code for model training, validation, and tuning is located in the `src` directory.
+   - Experimentation and iterative testing are documented in the `experiments` folder.
+   - Finalized models are saved in the `models` directory.
+
+4. **Reporting:**  
+   - Detailed analysis, visualizations, and model performance reports are compiled in the `reports` folder.
+   - These documents provide a comprehensive overview of findings and insights.
+
+## How to Use
+
+1. **Setup:**
+   - Clone the repository.
+   - Install the required dependencies (refer to `requirements.txt` if available).
+
+2. **Data Processing:**
+   - Execute the scripts in the `src` directory to clean and preprocess data from `data/raw`.
+
+3. **Exploratory Analysis:**
+   - Run the notebooks in the `experiments` folder to review EDA findings.
+
+4. **Model Training & Forecasting:**
+   - Execute the modeling scripts in `src` to train and validate forecasting models.
+   - Trained models are available in the `models` directory.
+
+5. **Review Reports:**
+   - Access detailed analytical reports and visualizations in the `reports` folder.
+
+## Results & Future Work
+
+The analysis highlights key demographic trends and predictive insights regarding global population changes. Future work may include:
+- Integrating additional socio-economic variables to enhance model accuracy.
+- Exploring advanced forecasting techniques and ensemble methods.
+- Expanding analysis to include more granular demographic segments.
+
+## License
+
+This project is licensed under the [Public Domain Dedication and License (PDDL)](https://opendatacommons.org/licenses/pddl/).
+
+## Contact
+
+For questions, suggestions, or collaboration opportunities, please contact:
+
+- **Pavanndeep Kaur** – [kaurpavandeep01@gmail.com](mailto:kaurpavandeep01@gmail.com)
+- **Reza Tehrani** – [rrtehrani4@gmail.com](mailto:rrtehrani4@gmail.com)
+- **Victor Leung** – [vleunghrh@gmail.com](mailto:vleunghrh@gmail.com)
+- **Aliya Asad** – Email
+- **KouKou Tian** – Email
+
+
+
+
+
+
+
+
+
+
+
+# Team Project
 ## Contents
 
 * [Overview](#overview)
