@@ -23,17 +23,7 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 
 📌 Key Features in the Dataset:
 
-LOCATION: Country Code
-
-Time: Year (YYYY Format)
-
-PC_HEALTHXP: % of healthcare budget spent on drugs
-
-PC_GDP: % of GDP allocated to pharmaceuticals
-
-USD_CAP: Per capita pharmaceutical spending (PPP-adjusted)
-
-TOTAL_SPEND: Total national drug spending (millions)
+![alt text](image-1.png)
 
 
 3️⃣ Methodology & Approach
@@ -78,6 +68,8 @@ Policy recommendations for optimizing drug spending
  🗄 Collaboration: GitHub, Jupyter Notebook
 
 
+ Project Flow 
+ ![alt text](image.png)
 
 
 
