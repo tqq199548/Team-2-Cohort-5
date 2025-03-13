@@ -1,0 +1,90 @@
+## Contents
+
+* [Overview](#overview)
+* [Learning Outcomes](#learning-outcomes)
+* [Getting Started](#getting-started)
+    * [Key Contacts](#key-contacts)
+    * [Module Delivery & Expectations](#module-delivery--expectations)
+    * [Schedule](#schedule)
+* [Instructions (How to Work on the Project)](#instructions-how-to-work-on-the-project)
+    * [How to Pick a Dataset](#how-to-pick-a-dataset)
+    * [Reviewing Your Dataset](#reviewing-your-dataset)
+        * [Questions to Discuss When Reviewing Your Dataset](#questions-to-discuss-when-reviewing-your-dataset)
+        * [Data Visualization Guiding Questions](#data-visualization-guiding-questions)
+        * [Machine Learning Model Guiding Questions](#machine-learning-model-guiding-questions)
+    * [Folder Structure & Repo Setup](#folder-structure--repo-setup)
+    * [How to Work as a Team](#how-to-work-as-a-team)
+        * [Further Reading on Teamwork & Collaboration](#further-reading-on-teamwork--collaboration)
+* [Submitting Your Project](#submitting-your-project)
+    * [Submission & Evaluation](#submission--evaluation)
+    * [How to Present Your Work](#how-to-present-your-work)
+* [Getting Help](#getting-help)
+    * [Troubleshooting & FAQs](#troubleshooting--faqs)
+    * [Additional Resources](#additional-resources)
+* [Other Resources](#other-resources)
+    * [Git](#git)
+    * [Past Participant Projects](#past-participant-projects)
+
+## Overview
+
+The Team Project will showcase your ability to deliver business value in a real-world context. This project will be a valuable asset in your portfolio, and you should be comfortable presenting it to prospective employers as a demonstration of your skillset.
+
+In your assigned team of ~6, you will collaboratively create a program to analyze an open-sourced dataset. For example, your team might wish to examine the relationship between the length of movies and the ratings users give them. Or, you may wish to explore the relationship between the size of a dog breed and the associated genetic ailments of that breed. You are encouraged to pick a business case that interests you, is robust and flexible enough to practise your skills, and is well-suited for showcasing business impact.
+
+The task in front of your team is deliberately open-ended. You will have to make many decisions together, such as:
+
+* How will you make sure all team members can contribute to the project?
+* How will you make decisions?
+* What is the question you're trying to answer through your data analysis?
+* What tasks need to be completed to get to your final output?
+
+At the end of the project, all team members are encouraged to fork the repo onto their profiles so that prospective employers can view the project.
+
+## Learning Outcomes
+
+By the end of this module, participants will be able to:
+
+1.  **Apply multiple technical skills in a cohesive project** by integrating concepts from Python, Git, Shell, SQL, Linear Regression, Classification, Resampling, Production, Data Science Stream Content (Sampling and Visualization) or Machine Learning Software Foundation Stream Content (Algorithms, Data Structures, and Deep Learning).
+2.  **Develop a portfolio-ready project** that demonstrates technical proficiency, problem-solving skills, and the ability to generate meaningful insights from data.
+3.  **Write high-quality, maintainable code** by practicing structured coding, effective commenting, debugging, and refactoring in a team setting.
+4.  **Document and present project findings effectively** by maintaining a clear README, summarizing key decisions, and delivering insights in a way that is accessible to both technical and non-technical audiences.
+5.  **Collaborate effectively in a team environment** by using Git best practices (small commits, branches, pull requests), participating in stand-ups, and maintaining effective communication.
+
+## Getting Started
+
+### Key Contacts
+
+**Questions can be submitted to the 'help' channel on Slack.**
+
+* **Technical Facilitator:**
+    * **Phil Van-Lane** (he/him)
+        phil.vanlane@mail.utoronto.ca
+* **Learning Support Staff:**
+    * **Aditya Kulkarni** (he/him)
+        aditya.kulkarni@mail.utoronto.ca
+    * **Farzaneh Hashemi** (she/her)
+        fhashemi.ma@gmail.com
+    * **Sergii Khomych** (he/him)
+        svkhomich1@gmail.com
+
+### Module Delivery & Expectations
+
+The Team Project schedule will include some content delivery in the live learning sessions, however most of the session time (and additional work periods) will be used to work on your project collaboratively as a team. There will also be a case study presented during the second week, which is a great opportunity to see a real-life example of the type of project you are working on.
+
+Although the project is not due until the end of the second week, it is important to plan out your work and stick to a schedule, so there will be milestones that you are expected to meet. The Technical Facilitator and Learning Support will check in with your team daily, and help guide you throughout the module. Constant communication with your team is crucial in short projects such as this!
+
+Your project plan will be evaluated at the end of your first week, and your finished project will be evaluated at the end of the second week. The last work period will also be a Project Showcase, where you will have the opportunity to present your project to the DSI team and the rest of your cohort. This is a great opportunity to practice showcasing the value of your work, and we encourage you to record it and include the video in your portfolios!
+
+### Schedule
+
+| Day 1                     | Day 2                     | Day 3       | Day 4       | Day 5       |
+| :------------------------ | :------------------------ | :---------- | :---------- | :---------- |
+| Live Learning + Work Period | Live Learning + Work Period | Work Period | Work Period | Work Period |
+
+| Day 6                  | Day 7       | Day 8                     | Day 9       | Day 10                    |
+| :--------------------- | :---------- | :------------------------ | :---------- | :------------------------ |
+| Review + Work Period | Work Period | Case Study + Work Period | Work Period | Presentation + Video Submission |
+
+---
+
+This document continues with detailed instructions on how to pick a dataset, reviewing datasets, team collaboration, submission, evaluation, and resources. Ensure you follow each section to maximize your learning experience and successfully complete your project!
