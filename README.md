@@ -2,8 +2,10 @@
 
 1️⃣ Project Overview
 This project analyzes global pharmaceutical drug spending trends, comparing expenditures across different countries and identifying key economic and healthcare insights. The goal is to uncover the latest patterns that help policymakers, pharmaceutical companies, and healthcare professionals make informed decisions.
+
 🔎 Key Business Questions:
 ✔Investigate the relationship between pharmaceutical spending and GDP in years. How does GDP impact pharmaceutical spending across countries? 
+
 💡 Potential Impact:
  📈 For Policymakers: Optimize drug pricing policies & healthcare budgets
  💰 For Investors: Identify high-growth pharmaceutical markets
