@@ -1,5 +1,16 @@
 # Team Project
 
+Members: 
+Aliya Asad
+
+Koukou Tian
+
+Pavanndeep Kaur
+
+Reza Tehrani
+
+Victor Leung
+
 1️⃣ Project Overview
 
 This project analyzes global pharmaceutical drug spending trends, comparing expenditures across different countries and identifying key economic and healthcare insights. The goal is to uncover the latest patterns that help policymakers, pharmaceutical companies, and healthcare professionals make informed decisions.
