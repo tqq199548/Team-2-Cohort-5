@@ -35,7 +35,8 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 
 📌 Key Features in the Dataset:
 
-![alt text](Backup-Pictures\image-1.png)
+![alt text](https://github.com/tqq199548/Team-2-Cohort-5/blob/3d42a8f1c6b6f83a6e8a16e9bbfea1e5296988ca/Backup-Pictures/image-1.png)
+
 
 
 3️⃣ Methodology & Approach
@@ -81,6 +82,6 @@ Policy recommendations for optimizing drug spending
 
 
  Project Flow 
- ![alt text](Backup-Pictures\image.png)
+ ![alt text](https://github.com/tqq199548/Team-2-Cohort-5/blob/3d42a8f1c6b6f83a6e8a16e9bbfea1e5296988ca/Backup-Pictures/image.png)
 
 
