@@ -13,7 +13,7 @@
 
 💯Victor Leung
 
-**Project Overview**
+# **Project Overview**
 
 This project analyzes global pharmaceutical drug spending trends, comparing expenditures across different countries and identifying key economic and healthcare insights. The goal is to uncover the latest patterns that help policymakers, pharmaceutical companies, and healthcare professionals make informed decisions.
 
@@ -29,7 +29,7 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
  
  🏥 For Healthcare Providers: Understand the affordability of medications
 
-**Dataset & Sources**
+# **Dataset & Sources**
 
 🔗 Dataset used: Pharmaceutical Drug Spending - DataHub
 
@@ -79,7 +79,7 @@ Policy recommendations for optimizing drug spending
  🗄 Collaboration: GitHub, Jupyter Notebook
 
 
- Project Flow 
+# **Project Flow**
  ![alt text](https://github.com/tqq199548/Team-2-Cohort-5/blob/3d42a8f1c6b6f83a6e8a16e9bbfea1e5296988ca/Backup-Pictures/image.png)
 
 
