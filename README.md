@@ -1,18 +1,19 @@
-# Team Project
 
-**Members:** 
+# Team Project: 🏥Pharmaceutical Drug Spending by Countries--Cohort 5 Team 2
 
-Aliya Asad
+**Team Members:** 
 
-Koukou Tian
+💯Aliya Asad
 
-Pavanndeep Kaur
+💯Koukou Tian
 
-Reza Tehrani
+💯Pavanndeep Kaur
 
-Victor Leung
+💯Reza Tehrani
 
-1️⃣ Project Overview
+💯Victor Leung
+
+**Project Overview**
 
 This project analyzes global pharmaceutical drug spending trends, comparing expenditures across different countries and identifying key economic and healthcare insights. The goal is to uncover the latest patterns that help policymakers, pharmaceutical companies, and healthcare professionals make informed decisions.
 
