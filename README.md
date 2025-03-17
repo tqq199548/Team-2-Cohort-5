@@ -17,11 +17,11 @@
 
 This project analyzes global pharmaceutical drug spending trends, comparing expenditures across different countries and identifying key economic and healthcare insights. The goal is to uncover the latest patterns that help policymakers, pharmaceutical companies, and healthcare professionals make informed decisions.
 
-🔎 Key Business Questions:
+**🔎 Key Business Questions:**
 
 ✔Investigate the relationship between pharmaceutical spending and GDP in years. How does GDP impact pharmaceutical spending across countries? 
 
-💡 Potential Impact:
+**💡 Potential Impact:**
 
  📈 For Policymakers: Optimize drug pricing policies & healthcare budgets
  
@@ -29,8 +29,7 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
  
  🏥 For Healthcare Providers: Understand the affordability of medications
 
-
-2️⃣ Dataset & Sources
+**Dataset & Sources**
 
 🔗 Dataset used: Pharmaceutical Drug Spending - DataHub
 
@@ -38,9 +37,7 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 
 ![alt text](https://github.com/tqq199548/Team-2-Cohort-5/blob/3d42a8f1c6b6f83a6e8a16e9bbfea1e5296988ca/Backup-Pictures/image-1.png)
 
-
-
-3️⃣ Methodology & Approach
+**Methodology & Approach**
 
 1️⃣ Data Cleaning & Preprocessing
 
