@@ -1,26 +1,28 @@
-# Team Project
 
-**Members:** 
 
-Aliya Asad
+# Team Project: 🏥Pharmaceutical Drug Spending by Countries 🗺--Cohort 5 Team 2
 
-Koukou Tian
+**Team Members:** 
 
-Pavanndeep Kaur
+💯Aliya Asad
 
-Reza Tehrani
+💯Koukou Tian
 
-Victor Leung
+💯Pavanndeep Kaur
 
-1️⃣ Project Overview
+💯Reza Tehrani
+
+💯Victor Leung
+
+# **Project Overview**
 
 This project analyzes global pharmaceutical drug spending trends, comparing expenditures across different countries and identifying key economic and healthcare insights. The goal is to uncover the latest patterns that help policymakers, pharmaceutical companies, and healthcare professionals make informed decisions.
 
-🔎 Key Business Questions:
+**🔎 Key Business Questions:**
 
 ✔Investigate the relationship between pharmaceutical spending and GDP in years. How does GDP impact pharmaceutical spending across countries? 
 
-💡 Potential Impact:
+**💡 Potential Impact:**
 
  📈 For Policymakers: Optimize drug pricing policies & healthcare budgets
  
@@ -28,8 +30,7 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
  
  🏥 For Healthcare Providers: Understand the affordability of medications
 
-
-2️⃣ Dataset & Sources
+# **Dataset & Sources**
 
 🔗 Dataset used: Pharmaceutical Drug Spending - DataHub
 
@@ -38,10 +39,11 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 ![alt text](https://github.com/tqq199548/Team-2-Cohort-5/blob/3d42a8f1c6b6f83a6e8a16e9bbfea1e5296988ca/Backup-Pictures/image-1.png)
 
 
+**Methodology & Approach**
 
-3️⃣ Methodology & Approach
 
 1️⃣ Data Cleaning & Preprocessing
+
 
 Handled missing values & standardized numerical formats
 
@@ -81,7 +83,6 @@ Policy recommendations for optimizing drug spending
  🗄 Collaboration: GitHub, Jupyter Notebook
 
 
- Project Flow 
+# **Project Flow**
  ![alt text](https://github.com/tqq199548/Team-2-Cohort-5/blob/3d42a8f1c6b6f83a6e8a16e9bbfea1e5296988ca/Backup-Pictures/image.png)
-
 
