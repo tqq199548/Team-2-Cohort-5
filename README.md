@@ -15,6 +15,7 @@ Victor Leung
 
 # **Project Background**
 **Why is Pharmaceutical Drug Spending Important?**
+
 Pharmaceutical spending is a key component of healthcare expenditure worldwide. It represents the cost incurred by individuals, governments, and insurance providers on prescription drugs, over-the-counter medicines, and self-medication.
 
 In recent years, rising drug costs have raised concerns regarding:
