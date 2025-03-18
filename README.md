@@ -31,25 +31,19 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
  
  -For Healthcare Providers: Understand the affordability of medications
 
-# **Dataset & Sources**
+# **Methodology and Technologies**
 
-🔗 Dataset used: Pharmaceutical Drug Spending - DataHub
+**Methodology**
 
-**Methodology & Approach**
+-Data Cleaning & Preprocessing
 
-1️⃣ Data Cleaning & Preprocessing
+-Exploratory Data Analysis (EDA)
 
+-Statistical Analysis & Predictive Modeling-Top 10 and Bottom 10
 
-2️⃣ Exploratory Data Analysis (EDA)
+-Visual Storytelling & Business Insights
 
-
-3️⃣ Statistical Analysis & Predictive Modeling-Top 10 and Bottom 10
-
-
-4️⃣ Visual Storytelling & Business Insights
-
-
-**Technologies & Tools Used**
+**Technologies**
 
 -Data Processing: Python (Pandas, NumPy)
 
