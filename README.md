@@ -5,7 +5,7 @@
 
 * Aliya Asad ([AliyaAsad](https://github.com/AliyaAsad))
 * Koukou Tian ([tqq199548](https://github.com/tqq199548))
-* Pavanndeep Kaur
+* Pavanndeep Kaur ([Pavendeep93](https://github.com/Pavandeep93))
 * Reza Tehrani
 * Victor Leung
 
