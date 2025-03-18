@@ -3,19 +3,14 @@
 
 **Team Members:** 
 
-Aliya Asad (github.com/AliyaAsad)
-
-Koukou Tian (https://github.com/tqq199548)
-
-Pavanndeep Kaur
-
-Reza Tehrani
-
-Victor Leung
+* Aliya Asad ([AliyaAsad](https://github.com/AliyaAsad))
+* Koukou Tian ([tqq199548](https://github.com/tqq199548))
+* Pavanndeep Kaur
+* Reza Tehrani
+* Victor Leung
 
 # **Project Background**
 **Why is Pharmaceutical Drug Spending Important?**
-
 Pharmaceutical spending is a key component of healthcare expenditure worldwide. It represents the cost incurred by individuals, governments, and insurance providers on prescription drugs, over-the-counter medicines, and self-medication.
 
 In recent years, rising drug costs have raised concerns regarding:
