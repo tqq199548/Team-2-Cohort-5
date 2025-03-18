@@ -5,7 +5,7 @@
 
 Aliya Asad (github.com/AliyaAsad)
 
-Koukou Tian (github.com/tqq199548)
+Koukou Tian (https://github.com/tqq199548)
 
 Pavanndeep Kaur
 
