@@ -3,15 +3,15 @@
 
 **Team Members:** 
 
-💯Aliya Asad
+Aliya Asad
 
-💯Koukou Tian
+Koukou Tian
 
-💯Pavanndeep Kaur
+Pavanndeep Kaur
 
-💯Reza Tehrani
+Reza Tehrani
 
-💯Victor Leung
+Victor Leung
 
 # **Project Overview**
 
@@ -25,11 +25,11 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 
 **💡 Potential Impact:**
 
- 📈 For Policymakers: Optimize drug pricing policies & healthcare budgets
+ -For Policymakers: Optimize drug pricing policies & healthcare budgets
  
- 💰 For Investors: Identify high-growth pharmaceutical markets
+ -For Investors: Identify high-growth pharmaceutical markets
  
- 🏥 For Healthcare Providers: Understand the affordability of medications
+ -For Healthcare Providers: Understand the affordability of medications
 
 # **Dataset & Sources**
 
@@ -51,13 +51,13 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 
 **Technologies & Tools Used**
 
-🚀 Data Processing: Python (Pandas, NumPy)
+-Data Processing: Python (Pandas, NumPy)
 
- 📊 Visualization: Matplotlib, Seaborn, Plotly
+-Visualization: Matplotlib, Seaborn, Plotly
  
- 📈 Modeling: Scikit-learn (Regression, Clustering)
+-Modeling: Scikit-learn (Regression, Clustering)
  
- 🗄 Collaboration: GitHub, Jupyter Notebook
+-Collaboration: GitHub, Jupyter Notebook
 
 
 # **Project Flow**
