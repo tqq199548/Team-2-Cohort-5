@@ -74,6 +74,12 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 
 
 # **Data Over View **
+
+
+**🌍 View the Interactive Map**
+
+👉 [Click here to view the Pharmaceutical Spending Map] https://tqq199548.github.io/pharma-map/
+
 | Question                                                 | Analysis                                     |
 |:---------------------------------------------------------|:---------------------------------------------|
 | How many countries are in this dataset?                  | There are 44 countries in this dataset.      |
@@ -83,5 +89,5 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 | What is the total number of possible observations?       | There are 2332 possible observations.        |
 | How many values are missing?                             | There are 0 missing values in the dataset.   |
 
-## 🌍 View the Interactive Map  
-👉 [Click here to view the Pharmaceutical Spending Map](https://github.com/tqq199548/Team-2-Cohort-5/raw/koko/Supporting-Documents/pharma_spending_map.html)
+ ## 🌍 View the Interactive Map  
+👉 [Click here to view the Pharmaceutical Spending Map](https://tqq199548.github.io/)
