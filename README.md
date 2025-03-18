@@ -73,10 +73,9 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 ![alt text](https://github.com/tqq199548/Team-2-Cohort-5/blob/3d42a8f1c6b6f83a6e8a16e9bbfea1e5296988ca/Backup-Pictures/image-1.png)
 
 
- **Data Over View **
+# **Data Over View **
 
-
-**🌍 View the Interactive Map**
+🌍 View the Interactive Map
 
 👉 [Click here to view the Pharmaceutical Spending Map] https://tqq199548.github.io/pharma-map/
 
