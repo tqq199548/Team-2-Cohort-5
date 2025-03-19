@@ -46,6 +46,8 @@ Handled missing values & standardized numerical formats
 Ensured GDP-adjusted and per-capita values were correctly formatted
 
 2️⃣ Exploratory Data Analysis (EDA)
+![Correlation Heatmap](https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/data_cleaning/Backup-Pictures/correlation_heatmap.png)
+![Exploratory table](https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/data_cleaning/Backup-Pictures/pivot_table.png)
 
 Identified high vs. low-spending countries
 
