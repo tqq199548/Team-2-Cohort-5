@@ -6,7 +6,7 @@
 * Koukou Tian ([tqq199548](https://github.com/tqq199548))
 * Pavanndeep Kaur ([Pavendeep93](https://github.com/Pavandeep93))
 * Reza Tehrani ([RezaDSI](https://github.com/RezaDSI))
-* Victor Leung
+* Victor Leung ([Vleung3782](https://github.com/Vleung3782))
 
 # **Project Background**
 **Why is Pharmaceutical Drug Spending Important?**
