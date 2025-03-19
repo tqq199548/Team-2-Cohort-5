@@ -1,17 +1,23 @@
-
-# Team Project: 🏥Pharmaceutical Drug Spending by Countries 🗺--Cohort 5 Team 2
+# 🏥Pharmaceutical Drug Spending by Countries 🗺
 
 **Team Members:** 
 
-💯Aliya Asad
+* Aliya Asad ([AliyaAsad](https://github.com/AliyaAsad))
+* Koukou Tian ([tqq199548](https://github.com/tqq199548))
+* Pavanndeep Kaur ([Pavendeep93](https://github.com/Pavandeep93))
+* Reza Tehrani
+* Victor Leung
 
-💯Koukou Tian
+# **Project Background**
+**Why is Pharmaceutical Drug Spending Important?**
 
-💯Pavanndeep Kaur
+Pharmaceutical spending is a key component of healthcare expenditure worldwide. It represents the cost incurred by individuals, governments, and insurance providers on prescription drugs, over-the-counter medicines, and self-medication.
+In recent years, rising drug costs have raised concerns regarding:
+Affordability: Higher drug prices make essential medications inaccessible to lower-income populations.
+Healthcare Policy: Policymakers and governments aim to balance innovation incentives for pharmaceutical companies while regulating costs.
+Economic Burden: Pharmaceutical spending impacts GDP, public health budgets, and insurance systems.
 
-💯Reza Tehrani
 
-💯Victor Leung
 
 # **Project Overview**
 
@@ -19,67 +25,66 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 
 **🔎 Key Business Questions:**
 
-✔Investigate the relationship between pharmaceutical spending and GDP in years. How does GDP impact pharmaceutical spending across countries? 
+✔Investigate the relationship between pharmaceutical spending and GDP in years. 
+
+✔How does GDP impact pharmaceutical spending across countries? 
 
 **💡 Potential Impact:**
 
- 📈 For Policymakers: Optimize drug pricing policies & healthcare budgets
+ -For Policymakers: Optimize drug pricing policies & healthcare budgets
  
- 💰 For Investors: Identify high-growth pharmaceutical markets
+ -For Investors: Identify high-growth pharmaceutical markets
  
- 🏥 For Healthcare Providers: Understand the affordability of medications
+ -For Healthcare Providers: Understand the affordability of medications
 
-# **Dataset & Sources**
+# **Methodology and Technologies**
 
-🔗 Dataset used: Pharmaceutical Drug Spending - DataHub
+**Methodology**
 
-📌 Key Features in the Dataset:
+-Data Cleaning & Preprocessing
 
-![alt text](https://github.com/tqq199548/Team-2-Cohort-5/blob/3d42a8f1c6b6f83a6e8a16e9bbfea1e5296988ca/Backup-Pictures/image-1.png)
+-Exploratory Data Analysis (EDA)
 
-**Methodology & Approach**
+-Statistical Analysis & Predictive Modeling-Top 10 and Bottom 10
 
-1️⃣ Data Cleaning & Preprocessing
+-Visual Storytelling & Business Insights
 
-Handled missing values & standardized numerical formats
+**Technologies**
 
-Ensured GDP-adjusted and per-capita values were correctly formatted
+-Data Processing: Python (Pandas, NumPy)
 
-2️⃣ Exploratory Data Analysis (EDA)
-
-Identified high vs. low-spending countries
-
-Tracked year-over-year trends in drug spending
-
-Compared spending vs. GDP & healthcare budgets
-
-3️⃣ Statistical Analysis & Predictive Modeling
-
-Regression Analysis: How GDP influences pharmaceutical spending
-
-Time-Series Forecasting (ARIMA, Prophet) to predict future drug spending
-
-Clustering Analysis: Grouping countries by spending behavior
-
-4️⃣ Visual Storytelling & Business Insights
-
-Interactive visualizations (line charts, heatmaps, scatter plots)
-
-Policy recommendations for optimizing drug spending
-
-
-5️⃣ Technologies & Tools Used
-
-🚀 Data Processing: Python (Pandas, NumPy)
-
- 📊 Visualization: Matplotlib, Seaborn, Plotly
+-Visualization: Matplotlib, Seaborn, Plotly
  
- 📈 Modeling: Scikit-learn (Regression, Clustering), ARIMA (Forecasting)
+-Modeling: Scikit-learn (Regression, Clustering)
  
- 🗄 Collaboration: GitHub, Jupyter Notebook
+-Collaboration: GitHub, Jupyter Notebook
 
 
 # **Project Flow**
  ![alt text](https://github.com/tqq199548/Team-2-Cohort-5/blob/3d42a8f1c6b6f83a6e8a16e9bbfea1e5296988ca/Backup-Pictures/image.png)
 
 
+# **Dataset & Sources**
+
+🔗 Dataset used: Pharmaceutical Drug Spending - DataHub https://datahub.io/core/pharmaceutical-drug-spending
+
+📌 Key Features in the Dataset:
+
+![alt text](https://github.com/tqq199548/Team-2-Cohort-5/blob/3d42a8f1c6b6f83a6e8a16e9bbfea1e5296988ca/Backup-Pictures/image-1.png)
+
+
+# **Data Over View**
+
+**🌍 View the Interactive Map**
+
+👉 [Click here to view the Pharmaceutical Spending Map] https://tqq199548.github.io/pharma-map/
+
+**🗨Data Set Q&A**
+| Question                                                 | Analysis                                     |
+|:---------------------------------------------------------|:---------------------------------------------|
+| How many countries are in this dataset?                  | There are 44 countries in this dataset.      |
+| How many years are in this dataset?                      | There are 53 years in this dataset.          |
+| What is the year range of this dataset?                  | The data ranges from the years 1970 to 2022. |
+| What is the total number of observations in the dataset? | There are 1341 observations in this dataset. |
+| What is the total number of possible observations?       | There are 2332 possible observations.        |
+| How many values are missing?                             | There are 0 missing values in the dataset.   |
