@@ -45,15 +45,15 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 
 -Exploratory Data Analysis (EDA)
 
--Statistical Analysis & Predictive Modeling-Top 10 and Bottom 10
+-Statistical Analysis & Top 10 and Bottom 10 (2011-2021)
 
--Visual Storytelling & Insights
+-Clustering Analysis 
 
 **Technologies**
 
 -Data Processing: Python (Pandas, NumPy)
 
--Visualization: Matplotlib, Seaborn, Plotly
+-Visualization: Matplotlib
  
 -Modeling: Scikit-learn (Regression, Clustering)
  
@@ -93,8 +93,41 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 # ** Data Cleaning & Preprocessing**
 
 **Data Cleaning**
+  
+1. **Heatmap of correlation** to analyze relationships between variables.  
+2. **Scatter plot** of all countries and timeframes to observe graph patterns.  
+3. **Pivot table** to visualize missing years and select years along with risk factors.  
+4. **Missing Values Table**: Overview of the number of countries with missing data, highlighting those that require imputation.
+5. **Imputation of missing values** along with risk factors.
 
-**Data Corellation**
+
+**Heatmap of correlation**
+
+To gain an initial understanding of how the variables interact, a correlation heatmap was generated. Several noteworthy correlations emerge:
+
+- **PC_HEALTHXP** and **PC_GDP** show a relatively strong positive correlation(0.72), suggesting that countries spending a higher percentage of GDP on pharmaceuticals also tend to allocate a larger share of their health budgets to pharmaceuticals.
+
+- **PC_GDP** and **USD_CAP** display a moderately high correlation(0.64), indicating that as pharmaceutical spending rises relative to GDP, per capita spending in USD also tends to increase.
+
+**Visualizing missing years and selection of timeframe**
+
+xxxxx picture
+
+This pivot table clearly illustrates data availability across different countries and years. Each green cell represents an existing observation for a given country-year combination, while the white cells highlight missing years.From this visualization, we can quickly see which years and countries are most densely populated with data. For instance, certain earlier years may have sporadic coverage, whereas more recent years often feature more consistent records. This overview is crucial for determining where data imputation will be needed. 
+
+To complement the pivot table, we also generated a summary table that lists, for each country, the total number of observations, the count of missing values, and the percentage of missing data specifically from 2011 to 2021. This numeric breakdown helps us quantify data gaps more precisely:
+
+- Countries with low or zero missing values are prime candidates for in-depth analysis without requiring extensive data imputation.
+- Countries with high percentages of missing data highlight areas where additional investigation or targeted imputation strategies may be necessary.
+
+## Rationale for Using 2011–2021
+ - **Recency and Relevance**: By narrowing our focus to 2011–2021, we ensure our analysis captures modern trends in pharmaceutical spending, making our insights more applicable to current policy and market decisions.
+
+- **Consistent Coverage**: Both the pivot table and the numeric summary reveal that most countries have more comprehensive data for this recent decade. Limiting our scope to these years minimizes the extent of missing values and, consequently, reduces the need for imputation.
+
+- **Reduced Complexity**: A decade-long timeframe offers a balanced window for capturing meaningful variations in spending without digging deep into older and potentially less relevant data. This more focused dataset is easier to manage and helps us draw clearer comparisons across countries.
+
+
 
 
 # **Data Exploration**
