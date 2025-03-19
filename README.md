@@ -5,7 +5,7 @@
 * Aliya Asad ([AliyaAsad](https://github.com/AliyaAsad))
 * Koukou Tian ([tqq199548](https://github.com/tqq199548))
 * Pavanndeep Kaur ([Pavendeep93](https://github.com/Pavandeep93))
-* Reza Tehrani
+* Reza Tehrani ([RezaDSI](https://github.com/RezaDSI))
 * Victor Leung
 
 # **Project Background**
@@ -41,13 +41,13 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 
 **Methodology**
 
--Data Cleaning & Preprocessing
+-Data Reviewing, Data Cleaning & Preprocessing
 
 -Exploratory Data Analysis (EDA)
 
 -Statistical Analysis & Predictive Modeling-Top 10 and Bottom 10
 
--Visual Storytelling & Business Insights
+-Visual Storytelling & Insights
 
 **Technologies**
 
