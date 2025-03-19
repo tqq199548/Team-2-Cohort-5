@@ -60,10 +60,6 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 -Collaboration: GitHub, Jupyter Notebook
 
 
-# **Project Flow**
- ![alt text](https://github.com/tqq199548/Team-2-Cohort-5/blob/3d42a8f1c6b6f83a6e8a16e9bbfea1e5296988ca/Backup-Pictures/image.png)
-
-
 # **Dataset & Sources**
 
 🔗 Dataset used: Pharmaceutical Drug Spending - DataHub https://datahub.io/core/pharmaceutical-drug-spending
@@ -90,7 +86,7 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 | How many values are missing?                             | There are 0 missing values in the dataset.   |
 
 
-# ** Data Cleaning & Preprocessing**
+# **Data Cleaning & Preprocessing**
 
 **Data Cleaning**
   
