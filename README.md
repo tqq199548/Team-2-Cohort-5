@@ -94,7 +94,6 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 
 **Data Cleaning**
 
-
 **Data Corellation**
 
 
@@ -104,6 +103,7 @@ Top 10
 
 Bottom 10
 
+Cluster Review
 
 # **Risks**
 
