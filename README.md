@@ -88,3 +88,25 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 | What is the total number of observations in the dataset? | There are 1341 observations in this dataset. |
 | What is the total number of possible observations?       | There are 2332 possible observations.        |
 | How many values are missing?                             | There are 0 missing values in the dataset.   |
+
+
+# ** Data Cleaning & Preprocessing**
+
+**Data Cleaning**
+
+
+**Data Corellation**
+
+
+# **Data Exploration**
+
+Top 10
+
+Bottom 10
+
+
+# **Risks**
+
+# **Conclusion**
+
+# **More Actions** 
