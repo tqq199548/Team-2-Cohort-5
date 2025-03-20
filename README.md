@@ -111,8 +111,6 @@ To complement the pivot table, we also generated a summary table that lists, for
 - **Reduced Complexity**: A decade-long timeframe offers a balanced window for capturing meaningful variations in spending without digging deep into older and potentially less relevant data. This more focused dataset is easier to manage and helps us draw clearer comparisons across countries.
 
 
-
-
 # **Data Exploration**
 
 Top 10
