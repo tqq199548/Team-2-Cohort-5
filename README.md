@@ -1,17 +1,23 @@
-
-# Team Project: 🏥Pharmaceutical Drug Spending by Countries 🗺--Cohort 5 Team 2
+# 🏥Pharmaceutical Drug Spending by Countries 🗺
 
 **Team Members:** 
 
-💯Aliya Asad
+* Aliya Asad ([AliyaAsad](https://github.com/AliyaAsad))
+* Koukou Tian ([tqq199548](https://github.com/tqq199548))
+* Pavanndeep Kaur ([Pavendeep93](https://github.com/Pavandeep93))
+* Reza Tehrani ([RezaDSI](https://github.com/RezaDSI))
+* Victor Leung ([Vleung3782](https://github.com/Vleung3782))
 
-💯Koukou Tian
+# **Project Background**
+**Why is Pharmaceutical Drug Spending Important?**
 
-💯Pavanndeep Kaur
+Pharmaceutical spending is a key component of healthcare expenditure worldwide. It represents the cost incurred by individuals, governments, and insurance providers on prescription drugs, over-the-counter medicines, and self-medication.
+In recent years, rising drug costs have raised concerns regarding:
+Affordability: Higher drug prices make essential medications inaccessible to lower-income populations.
+Healthcare Policy: Policymakers and governments aim to balance innovation incentives for pharmaceutical companies while regulating costs.
+Economic Burden: Pharmaceutical spending impacts GDP, public health budgets, and insurance systems.
 
-💯Reza Tehrani
 
-💯Victor Leung
 
 # **Project Overview**
 
@@ -19,69 +25,233 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 
 **🔎 Key Business Questions:**
 
-✔Investigate the relationship between pharmaceutical spending and GDP in years. How does GDP impact pharmaceutical spending across countries? 
+✔Investigate the relationship between pharmaceutical spending and GDP in years. 
+
+✔How does GDP impact pharmaceutical spending across countries? 
 
 **💡 Potential Impact:**
 
- 📈 For Policymakers: Optimize drug pricing policies & healthcare budgets
+ -For Policymakers: Optimize drug pricing policies & healthcare budgets
  
- 💰 For Investors: Identify high-growth pharmaceutical markets
+ -For Investors: Identify high-growth pharmaceutical markets
  
- 🏥 For Healthcare Providers: Understand the affordability of medications
+ -For Healthcare Providers: Understand the affordability of medications
+
+# **Technologies Applied**
+
+-Data Processing: Python (Pandas, NumPy)
+
+-Visualization: Matplotlib
+ 
+-Modeling: Scikit-learn (Regression, Clustering)
+ 
+-Collaboration: GitHub, Jupyter Notebook
+
 
 # **Dataset & Sources**
 
-🔗 Dataset used: Pharmaceutical Drug Spending - DataHub
+🔗 Dataset used: Pharmaceutical Drug Spending - DataHub https://datahub.io/core/pharmaceutical-drug-spending
 
 📌 Key Features in the Dataset:
 
-![alt text](https://github.com/tqq199548/Team-2-Cohort-5/blob/3d42a8f1c6b6f83a6e8a16e9bbfea1e5296988ca/Backup-Pictures/image-1.png)
-
-**Methodology & Approach**
-
-1️⃣ Data Cleaning & Preprocessing
-
-Handled missing values & standardized numerical formats
-
-Ensured GDP-adjusted and per-capita values were correctly formatted
-
-2️⃣ Exploratory Data Analysis (EDA)
-![Correlation Heatmap](https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/data_cleaning/Backup-Pictures/correlation_heatmap.png)
-![Exploratory table](https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/data_cleaning/Backup-Pictures/pivot_table.png)
-
-Identified high vs. low-spending countries
-
-Tracked year-over-year trends in drug spending
-
-Compared spending vs. GDP & healthcare budgets
-
-3️⃣ Statistical Analysis & Predictive Modeling
-
-Regression Analysis: How GDP influences pharmaceutical spending
-
-Time-Series Forecasting (ARIMA, Prophet) to predict future drug spending
-
-Clustering Analysis: Grouping countries by spending behavior
-
-4️⃣ Visual Storytelling & Business Insights
-
-Interactive visualizations (line charts, heatmaps, scatter plots)
-
-Policy recommendations for optimizing drug spending
+| Variables      | Meaning                                    | Potential Link                                                    |
+|--------------|---------------------------------------------|--------------------------------------------------------------------|
+| LOCATION     | Country code                                | Compare different countries' spending patterns                     |
+| TIME         | Year                                       | Analyze trends over time (e.g., drug spending growth)              |
+| PC_HEALTHXP  | % of total health spending allocated to drugs | See how drug costs contribute to overall healthcare expenses     |
+| PC_GDP       | % of GDP spent on drugs                    | Compare pharmaceutical spending to economic growth                  |
+| USD_CAP      | Drug spending per capita (PPP-adjusted)     | Evaluate affordability & impact on individuals                     |
+| TOTAL_SPEND  | Total national drug spending (millions)     | Measure overall market size & growth                               |
 
 
-5️⃣ Technologies & Tools Used
+# **Data Overview**
 
-🚀 Data Processing: Python (Pandas, NumPy)
+**🌍 View the Interactive Map**
 
- 📊 Visualization: Matplotlib, Seaborn, Plotly
- 
- 📈 Modeling: Scikit-learn (Regression, Clustering), ARIMA (Forecasting)
- 
- 🗄 Collaboration: GitHub, Jupyter Notebook
+👉 [Click here to view the Pharmaceutical Spending Map] https://tqq199548.github.io/pharma-map/
 
 
-# **Project Flow**
- ![alt text](https://github.com/tqq199548/Team-2-Cohort-5/blob/3d42a8f1c6b6f83a6e8a16e9bbfea1e5296988ca/Backup-Pictures/image.png)
+**🗨Data Set Q&A**
+| Question                                                 | Analysis                                     |
+|:---------------------------------------------------------|:---------------------------------------------|
+| How many countries are in this dataset?                  | There are 44 countries in this dataset.      |
+| How many years are in this dataset?                      | There are 53 years in this dataset.          |
+| What is the year range of this dataset?                  | The data ranges from the years 1970 to 2022. |
+| What is the total number of observations in the dataset? | There are 1341 observations in this dataset. |
+| What is the total number of possible observations?       | There are 2332 possible observations.        |
+| How many values are missing?                             | There are 0 missing values in the dataset.   |
 
 
+# **Data Cleaning & Preprocessing**
+    
+**Heatmap of correlation**
+
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/correlation_heatmap.png" width="500">
+
+
+To gain an initial understanding of how the variables interact, a correlation heatmap was generated. Several noteworthy correlations emerge:
+
+- **PC_HEALTHXP** and **PC_GDP** show a relatively strong positive correlation(0.72), suggesting that countries spending a higher percentage of GDP on pharmaceuticals also tend to allocate a larger share of their health budgets to pharmaceuticals.
+
+- **PC_GDP** and **USD_CAP** display a moderately high correlation(0.64), indicating that as pharmaceutical spending rises relative to GDP, per capita spending in USD also tends to increase.
+
+**Visualizing missing years and selection of timeframe**
+
+![alt text](https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/pivot_table.png)
+
+This pivot table clearly illustrates data availability across different countries and years. Each green cell represents an existing observation for a given country-year combination, while the white cells highlight missing years.From this visualization, we can quickly see which years and countries are most densely populated with data. For instance, certain earlier years may have sporadic coverage, whereas more recent years often feature more consistent records. This overview is crucial for determining where data imputation will be needed. 
+
+To complement the pivot table, we also generated a summary table that lists, for each country, the total number of observations, the count of missing values, and the percentage of missing data specifically from 2011 to 2021. This numeric breakdown helps us quantify data gaps more precisely.
+
+
+## Rationale for Using 2011–2021
+ - **Recency and Relevance**: By narrowing our focus to 2011–2021, we ensure our analysis captures modern trends in pharmaceutical spending, making our insights more applicable to current policy and market decisions.
+
+- **Consistent Coverage**: Both the pivot table and the numeric summary reveal that most countries have more comprehensive data for this recent decade. Limiting our scope to these years minimizes the extent of missing values and, consequently, reduces the need for imputation.
+
+- **Reduced Complexity**: A decade-long timeframe offers a balanced window for capturing meaningful variations in spending without digging deep into older and potentially less relevant data. This more focused dataset is easier to manage and helps us draw clearer comparisons across countries.
+
+
+# **Data Exploration**
+
+**1. Identify Top 10 and Bottom 10 Countries (based on USD per capita pharmaceutical spending):**
+
+**-Top 10 Countries:** 
+
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Top%2010%20spenders.png" width="500">
+
+**Key Observations:**
+
+The USA leads significantly, with the highest per capita spending Other high spenders include: Malta (MLT) → A comparatively smaller economy country with high per capita spending. Switzerland (CHE) → Known for its robust healthcare system. France (FRA) → Major European economy with steady healthcare investments
+
+**-Bottom 10 Countries:**
+
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Bottom%2010%20spenders.png" width="500">
+
+
+**Key Observations:**
+
+Gradual Increase: The spending increases gradually from the top to the bottom of the list, with the last country on the list having the highest spending among these ten, approaching 400 USD. The list includes a mix of countries from different regions, such as Europe (Croatia, Estonia, Denmark), the Middle East (Israel), and Latin America (Chile, Brazil, Mexico, Costa Rica, Colombia). This indicates that low spending per capita is not confined to one specific region but is a global issue.
+
+**2. Scatter Plot Review on Outliers**
+
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Scatter%20plot.png" width="500">
+
+**Key Observations:**
+
+PC_GDP vs USD_CAP (Outliers Highlighted): The scatter plot reveals a general positive trend between avg PC_GDP and avg USD_CAP, **indicating that higher GDP per capita is associated with higher capital expenditure**. Outliers, highlighted in red, are primarily concentrated at higher avg PC_GDP values (around 1.5 to 2.0), with significantly higher avg USD_CAP values compared to the rest of the data. These outliers correspond to specific years and locations (e.g., USA in recent years), **suggesting unique economic conditions or policies that result in exceptionally high capital expenditure.**
+
+
+**4. Clustering Analysis**
+
+The primary purpose of Clustering Analysis is to:
+
+1.Identify patterns of data that may not be immediately apparent
+
+2.Segment data into meaningful sub-group or clusters, allowing for more focused analysis & decision making
+
+3.Facilitate further data exploration that could lead to new insights & discoveries.
+
+Clustering Analysis for the following feature pairs:
+
+1.PC_GDP & PC_HEALTHXP  
+2.USD_CAP & PC_GDP      
+3.USD_CAP & TOTAL_SPEND 
+
+**Clustering Analysis for PC_GDP & PC_HEALTHXP, the optimal k=3.**
+
+-------xxxx image
+
+**Oberservation:** 
+
+Cluster 0: ['AUS', 'AUT', 'BEL', 'CHE', 'COL', 'CRI', 'CYP', 'DNK', 'EST', 'FIN', 'GBR', 'IRL', 'ISL', 'ISR', 'LUX', 'NLD', 'NOR', 'SWE']
+
+Cluster 1: ['BRA', 'CAN', 'CZE', 'DEU', 'ESP', 'FRA', 'HRV', 'ITA', 'JPN', 'KOR', 'LTU', 'LVA', 'MEX', 'MLT', 'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'USA']
+
+Cluster 2: ['BGR', 'GRC', 'HUN']
+
+**Clustering Analysis for USD_CAP & PC_GDP,the optimal k=3.**
+
+------xxx image
+
+**Oberservation:** 
+
+Cluster 0: ['AUS', 'AUT', 'BEL', 'BRA', 'COL', 'CRI', 'CYP', 'CZE', 'DNK', 'ESP', 'EST', 'FIN', 'GBR', 'IRL', 'ISL', 'ISR', 'ITA', 'LUX', 'NLD', 'NOR', 'PRT', 'SVN', 'SWE']
+
+Cluster 1: ['BGR', 'GRC', 'HRV', 'HUN', 'KOR', 'LTU', 'LVA', 'MEX', 'POL', 'ROU', 'SVK']
+
+Cluster 2: ['CAN', 'CHE', 'DEU', 'FRA', 'JPN', 'MLT', 'USA']
+
+It is evident that Cluster 0 & 1 consist of both developed & developing countrie, whereas Cluster 2 is mostly developed countries.
+
+
+**Clustering Analysis for USD_CAP & TOTAL_SPEND (with USA data) , the optimal K=3**
+
+----xxx image
+
+**Oberservation:** 
+
+Cluster 0 for k=3: ['AUS', 'AUT', 'BEL', 'BGR', 'BRA', 'CHE', 'COL', 'CRI', 'CYP', 'CZE', 'DNK', 'ESP', 'EST', 'FIN', 'GBR', 'GRC', 'HRV', 'HUN', 'IRL', 'ISL', 'ISR', 'ITA', 'KOR', 'LTU', 'LUX', 'LVA', 'MEX', 'MLT', 'NLD', 'NOR', 'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'SWE']
+
+Cluster 1 for k=3: ['USA']
+
+Cluster 2 for k=3: ['CAN', 'DEU', 'FRA', 'JPN']
+
+**Clustering Analysis for USD_CAP & TOTAL_SPEND (WITHOUT USA data) , the optimal K=3**
+
+----XXX image
+
+**Oberservation:** 
+
+
+**Pair Plot Review** 
+
+
+
+
+
+
+
+# **🏁Key Findings from the Analysis📌**
+
+**1️⃣ Pharmaceutical Spending is Strongly Correlated with Economic Strength.**
+
+Developed countries (e.g., USA, Canada, Switzerland, Germany) allocate significantly higher per capita and total spending on pharmaceuticals.
+Developing nations (e.g., Mexico, Brazil, Colombia) have lower absolute spending but may still allocate a substantial percentage of GDP to pharmaceuticals.
+
+**2️⃣ Clustering Analysis Reveals Spending Patterns**
+
+Countries cluster into three distinct groups based on PC_GDP, PC_HEALTHXP, and USD_CAP.
+Cluster 2 (USA, Switzerland, Canada, Germany) represents high-income nations with very high per capita spending.
+Cluster 0 & 1 show a mix of developed & developing economies, indicating varying affordability levels for pharmaceuticals.
+
+**3️⃣ The USA is a Significant Outlier**
+
+The USA has exceptionally high pharmaceutical spending, standing alone in some clusters.
+Possible reasons: Higher drug prices, private healthcare dominance, and patent-protected medications.
+
+**4️⃣ Spending vs. Health Outcomes**
+
+Higher pharmaceutical spending positively correlates with better healthcare quality rankings and life expectancy.
+However, inefficiencies exist, as some high-spending countries do not always have the best healthcare outcomes.
+
+# **📈Recommendations**
+
+**🔹 For Policymakers:**
+Implement price control measures on essential medications.
+Encourage the adoption of generic drugs to lower costs.
+
+**🔹 For Investors & Pharmaceutical Companies:**
+Invest in emerging pharmaceutical markets in developing economies.
+Explore trends in aging populations that drive higher pharmaceutical demand.
+
+**🔹 For Healthcare Systems & Insurers:**
+Develop strategies to ensure affordable drug pricing without stifling innovation.
+Promote preventative healthcare to reduce overall pharmaceutical dependency.
+
+# **🗨 For Future Research & Analysis:**
+Investigate government healthcare policies and their impact on drug pricing.
+Analyze the impact of pharmaceutical R&D investments on national drug costs.
+Expand the dataset to include post-2022 trends, particularly in the aftermath of the COVID-19 pandemic.
+
+# **Videos:**
