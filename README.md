@@ -207,6 +207,54 @@ Cluster 2 for k=3: ['CAN', 'DEU', 'FRA', 'JPN']
 
 
 
-# **Conclusion**
+# **🏁 Conclusion & Future Actions**
+**📌 Key Findings from the Analysis**
 
-# **More Actions** 
+1️⃣ Pharmaceutical Spending is Strongly Correlated with Economic Strength. 
+
+Developed countries (e.g., USA, Canada, Switzerland, Germany) allocate significantly higher per capita and total spending on pharmaceuticals.
+
+Developing nations (e.g., Mexico, Brazil, Colombia) have lower absolute spending but may still allocate a substantial percentage of GDP to pharmaceuticals.
+
+2️⃣ Clustering Analysis Reveals Spending Patterns
+
+Countries cluster into three distinct groups based on PC_GDP, PC_HEALTHXP, and USD_CAP.
+
+Cluster 2 (USA, Switzerland, Canada, Germany) represents high-income nations with very high per capita spending.
+
+Cluster 0 & 1 show a mix of developed & developing economies, indicating varying affordability levels for pharmaceuticals.
+
+3️⃣ The USA is a Significant Outlier
+
+The USA has exceptionally high pharmaceutical spending, standing alone in some clusters.
+
+Possible reasons: Higher drug prices, private healthcare dominance, and patent-protected medications.
+
+4️⃣ Spending vs. Health Outcomes
+
+Higher pharmaceutical spending positively correlates with better healthcare quality rankings and life expectancy.
+However, inefficiencies exist, as some high-spending countries do not always have the best healthcare outcomes.
+
+
+**📈 Future Actions & Recommendations**
+
+**🔹 For Policymakers:**
+
+Implement price control measures on essential medications.
+Encourage the adoption of generic drugs to lower costs.
+
+**🔹 For Investors & Pharmaceutical Companies:**
+
+Invest in emerging pharmaceutical markets in developing economies.
+Explore trends in aging populations that drive higher pharmaceutical demand.
+
+**🔹 For Healthcare Systems & Insurers:**
+
+Develop strategies to ensure affordable drug pricing without stifling innovation.
+Promote preventative healthcare to reduce overall pharmaceutical dependency.
+
+**🗨 For Future Research & Analysis:**
+
+Investigate government healthcare policies and their impact on drug pricing.
+Analyze the impact of pharmaceutical R&D investments on national drug costs.
+Expand the dataset to include post-2022 trends, particularly in the aftermath of the COVID-19 pandemic.
