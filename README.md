@@ -235,7 +235,7 @@ Higher pharmaceutical spending positively correlates with better healthcare qual
 However, inefficiencies exist, as some high-spending countries do not always have the best healthcare outcomes.
 
 
-**📈Recommendations**
+# **📈Recommendations**
 
 **🔹 For Policymakers:**
 
