@@ -115,21 +115,28 @@ To complement the pivot table, we also generated a summary table that lists, for
 
 **1. Identify Top 10 and Bottom 10 Countries (based on USD per capita pharmaceutical spending):**
 
--Top 10 Countries: 
+**-Top 10 Countries:** 
 
-xxxx graph
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Top%2010%20spenders.png" width="500">
 
-**Key Observations**: The USA leads significantly, with the highest per capita spending Other high spenders include: Malta (MLT) → A comparatively smaller economy country with high per capita spending. Switzerland (CHE) → Known for its robust healthcare system. France (FRA) → Major European economy with steady healthcare investments
+**Key Observations:**
 
--Bottom 10 Countries: 
+The USA leads significantly, with the highest per capita spending Other high spenders include: Malta (MLT) → A comparatively smaller economy country with high per capita spending. Switzerland (CHE) → Known for its robust healthcare system. France (FRA) → Major European economy with steady healthcare investments
 
-xxxx graph
+**-Bottom 10 Countries:**
 
-**Key Observations**: Gradual Increase: The spending increases gradually from the top to the bottom of the list, with the last country on the list having the highest spending among these ten, approaching 400 USD. The list includes a mix of countries from different regions, such as Europe (Croatia, Estonia, Denmark), the Middle East (Israel), and Latin America (Chile, Brazil, Mexico, Costa Rica, Colombia). This indicates that low spending per capita is not confined to one specific region but is a global issue.
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Bottom%2010%20spenders.png" width="500">
+
+
+**Key Observations:**
+
+Gradual Increase: The spending increases gradually from the top to the bottom of the list, with the last country on the list having the highest spending among these ten, approaching 400 USD. The list includes a mix of countries from different regions, such as Europe (Croatia, Estonia, Denmark), the Middle East (Israel), and Latin America (Chile, Brazil, Mexico, Costa Rica, Colombia). This indicates that low spending per capita is not confined to one specific region but is a global issue.
 
 **2. Scatter Plot Review on Outliers**
 
-xxxx scater plot picture
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Scatter%20plot.png" width="500">
+
+**Key Observations:**
 
 PC_GDP vs USD_CAP (Outliers Highlighted): The scatter plot reveals a general positive trend between avg PC_GDP and avg USD_CAP, **indicating that higher GDP per capita is associated with higher capital expenditure**. Outliers, highlighted in red, are primarily concentrated at higher avg PC_GDP values (around 1.5 to 2.0), with significantly higher avg USD_CAP values compared to the rest of the data. These outliers correspond to specific years and locations (e.g., USA in recent years), **suggesting unique economic conditions or policies that result in exceptionally high capital expenditure.**
 
