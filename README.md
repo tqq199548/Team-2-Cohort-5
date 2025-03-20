@@ -140,12 +140,71 @@ Gradual Increase: The spending increases gradually from the top to the bottom of
 
 PC_GDP vs USD_CAP (Outliers Highlighted): The scatter plot reveals a general positive trend between avg PC_GDP and avg USD_CAP, **indicating that higher GDP per capita is associated with higher capital expenditure**. Outliers, highlighted in red, are primarily concentrated at higher avg PC_GDP values (around 1.5 to 2.0), with significantly higher avg USD_CAP values compared to the rest of the data. These outliers correspond to specific years and locations (e.g., USA in recent years), **suggesting unique economic conditions or policies that result in exceptionally high capital expenditure.**
 
-**3. Clustering Analysis**
+**3. Correlationship of data**
+
+Relationship on Pharmaceutical Spending in terms 
+of Per Capita Spending (USD_CAP) ranking is positively correlated with
+1. Health Quality ranking
+2. Life Expectancy ranking
+
+
+For the Correlation of Health Care rank with Per Capital Spending rank:  positive correlation of 0.43, p=0.008 indicating the correlation is significant at 
+99% confidence interval
+
+For the Correlation of Life Expectancy with Per Capita rank: a positive 
+correlation of 0.56, p=0.0000, indicating the correlation is significant at the 99% 
+confidence interval
+
+xxxx---graph
+
+Correlations: 
+PC_GDP & PC_HEALTHXP  (r=0.76)
+USD_CAP & PC_GDP      (r=0.45)
+USD_CAP & TOTAL_SPEND (r=0.62)
+
+**4. Clustering Analysis**
+
+The primary purpose of Clustering Analysis is to:
+1.Identify patterns of data that may not be immediately apparent
+2.Segment data into meaningful sub-group or clusters, allowing for more focused analysis & decision making
+3.Facilitate further data exploration that could lead to new insights & discoveries.
+
+Clustering Analysis for the following feature pairs:
+1.PC_GDP & PC_HEALTHXP  
+2.USD_CAP & PC_GDP      
+3.USD_CAP & TOTAL_SPEND 
+
+**Clustering Analysis for PC_GDP & PC_HEALTHXP, the optimal k=3.**
+
+Countries in clusters for k=3 (PC_GDP & PC_HEALTHXP):
+Cluster 0: ['AUS', 'AUT', 'BEL', 'CHE', 'COL', 'CRI', 'CYP', 'DNK', 'EST', 'FIN', 'GBR', 'IRL', 'ISL', 'ISR', 'LUX', 'NLD', 'NOR', 'SWE']
+Cluster 1: ['BRA', 'CAN', 'CZE', 'DEU', 'ESP', 'FRA', 'HRV', 'ITA', 'JPN', 'KOR', 'LTU', 'LVA', 'MEX', 'MLT', 'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'USA']
+Cluster 2: ['BGR', 'GRC', 'HUN']
+
+----scatter plot
+
+**Clustering Analysis for USD_CAP & PC_GDP,the optimal k=3.**
+
+Cluster 0: ['AUS', 'AUT', 'BEL', 'BRA', 'COL', 'CRI', 'CYP', 'CZE', 'DNK', 'ESP', 'EST', 'FIN', 'GBR', 'IRL', 'ISL', 'ISR', 'ITA', 'LUX', 'NLD', 'NOR', 'PRT', 'SVN', 'SWE']
+Cluster 1: ['BGR', 'GRC', 'HRV', 'HUN', 'KOR', 'LTU', 'LVA', 'MEX', 'POL', 'ROU', 'SVK']
+Cluster 2: ['CAN', 'CHE', 'DEU', 'FRA', 'JPN', 'MLT', 'USA']
+
+It is evident that Cluster 0 & 1 consist of both developed & developing countrie, whereas Cluster 2 is mostly developed countries.
+
+--------scatter plot
+
+**Clustering Analysis for USD_CAP & TOTAL_SPEND, the optimal K=3**
+Countries in clusters for k=3 (USD_CAP & TOTAL_SPEND):
+Cluster 0 for k=3: ['AUS', 'AUT', 'BEL', 'BGR', 'BRA', 'CHE', 'COL', 'CRI', 'CYP', 'CZE', 'DNK', 'ESP', 'EST', 'FIN', 'GBR', 'GRC', 'HRV', 'HUN', 'IRL', 'ISL', 'ISR', 'ITA', 'KOR', 'LTU', 'LUX', 'LVA', 'MEX', 'MLT', 'NLD', 'NOR', 'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'SWE']
+Cluster 1 for k=3: ['USA']
+Cluster 2 for k=3: ['CAN', 'DEU', 'FRA', 'JPN']
+
+
+**Pair Plot**
 
 
 
 
-Cluster Review
 
 
 # **Conclusion**
