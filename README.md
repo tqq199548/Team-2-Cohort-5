@@ -207,8 +207,7 @@ Cluster 2 for k=3: ['CAN', 'DEU', 'FRA', 'JPN']
 
 
 
-# **🏁 Conclusion & Future Actions**
-**📌 Key Findings from the Analysis**
+# **🏁Key Findings from the Analysis📌**
 
 1️⃣ Pharmaceutical Spending is Strongly Correlated with Economic Strength. 
 
@@ -236,7 +235,7 @@ Higher pharmaceutical spending positively correlates with better healthcare qual
 However, inefficiencies exist, as some high-spending countries do not always have the best healthcare outcomes.
 
 
-**📈 Future Actions & Recommendations**
+**📈Recommendations**
 
 **🔹 For Policymakers:**
 
@@ -253,7 +252,7 @@ Explore trends in aging populations that drive higher pharmaceutical demand.
 Develop strategies to ensure affordable drug pricing without stifling innovation.
 Promote preventative healthcare to reduce overall pharmaceutical dependency.
 
-**🗨 For Future Research & Analysis:**
+# **🗨 For Future Research & Analysis:**
 
 Investigate government healthcare policies and their impact on drug pricing.
 Analyze the impact of pharmaceutical R&D investments on national drug costs.
