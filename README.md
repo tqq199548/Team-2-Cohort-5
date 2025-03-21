@@ -159,7 +159,7 @@ Clustering Analysis for the following feature pairs:
 
 **Clustering Analysis for PC_GDP & PC_HEALTHXP, the optimal k=3.**
 
--------xxxx image
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Scatter%20Plot%20of%20PC_GDP%20vs%20PC_HEALTHXP%20(k%3D3).png" width="500">
 
 **Oberservation:** 
 
@@ -171,7 +171,8 @@ Cluster 2: ['BGR', 'GRC', 'HUN']
 
 **Clustering Analysis for USD_CAP & PC_GDP,the optimal k=3.**
 
-------xxx image
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Scatter%20Plot%20of%20PC_GDP%20vs%20USD_CAP%20(k%3D3).png" width="500">
+
 
 **Oberservation:** 
 
@@ -186,7 +187,8 @@ It is evident that Cluster 0 & 1 consist of both developed & developing countrie
 
 **Clustering Analysis for USD_CAP & TOTAL_SPEND (with USA data) , the optimal K=3**
 
-----xxx image
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Scatter%20Plot%20of%20USD_CAP%20vs%20TOTAL_SPEND%20(k%3D3).png" width="500">
+
 
 **Oberservation:** 
 
@@ -196,19 +198,22 @@ Cluster 1 for k=3: ['USA']
 
 Cluster 2 for k=3: ['CAN', 'DEU', 'FRA', 'JPN']
 
+
 **Clustering Analysis for USD_CAP & TOTAL_SPEND (WITHOUT USA data) , the optimal K=3**
 
-----XXX image
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Scatter%20Plot%20of%20USD_CAP%20vs%20TOTAL_SPEND%20(k%3D3)%20EXCLUDE%20USA.png" width="500">
+
 
 **Oberservation:** 
 
 
-**Pair Plot Review** 
+**Elbow Method Review** 
 
-
-
-
-
+<p align="center">
+    <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Elbow%20Method%20For%20Optimal%20k%20(USD_CAP%20%26%20TOTAL_SPEND).png" width="300">
+    <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Elbow%20Method%20For%20Optimal%20k%20with%20Line%20for%20k%3D3%20(PC_GDP%20%26%20PC_HEALTHXP).png" width="300">
+    <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Elbow%20Method%20For%20Optimal%20k%20with%20Line%20for%20k%3D3%2C%20USD_CAP%20%26%20PC_GDP.png" width="300">
+</p>
 
 
 # **🏁Key Findings from the Analysis📌**
