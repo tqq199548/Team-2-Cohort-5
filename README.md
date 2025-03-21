@@ -155,7 +155,7 @@ This indicates that low spending per capita is not confined to one specific regi
 
 -------
 
-## **2. Scatter Plot Review on Outliers-Based on---**
+## **2. Scatter Plot Review on Outliers (based on raw data)**
 
 <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/Identifying-Top-10-and-Bottom-10-Country-Spenders/Scatter%20plot%20new.png" width="500">
 
