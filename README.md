@@ -121,22 +121,40 @@ To complement the pivot table, we also generated a summary table that lists, for
 
 **Key Observations:**
 
-The USA leads significantly, with the highest per capita spending Other high spenders include: Malta (MLT) → A comparatively smaller economy country with high per capita spending. Switzerland (CHE) → Known for its robust healthcare system. France (FRA) → Major European economy with steady healthcare investments
+The USA leads significantly, with the highest per capita spending. 
+
+Other high spenders include: 
+
+Malta (MLT) → A comparatively smaller economy country with high per capita spending. 
+
+Switzerland (CHE) → Known for its robust healthcare system. 
+
+France (FRA) → Major European economy with steady healthcare investments
 
 ------------
 
-**-Bottom 10 Countries:**
+**Bottom 10 Countries:**
 
 <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Bottom%2010%20spenders.png" width="500">
 
 
 **Key Observations:**
 
-Gradual Increase: The spending increases gradually from the top to the bottom of the list, with the last country on the list having the highest spending among these ten, approaching 400 USD. The list includes a mix of countries from different regions, such as Europe (Croatia, Estonia, Denmark), the Middle East (Israel), and Latin America (Chile, Brazil, Mexico, Costa Rica, Colombia). This indicates that low spending per capita is not confined to one specific region but is a global issue.
+The spending increases gradually from the top to the bottom of the list, with the last country on the list having the highest spending among these ten, approaching 400 USD. 
+
+The list includes a mix of countries from different regions:
+
+Europe (Croatia, Estonia, Denmark)
+
+Middle East (Israel)
+
+Latin America (Chile, Brazil, Mexico, Costa Rica, Colombia)
+
+This indicates that low spending per capita is not confined to one specific region but is a global issue.
 
 -------
 
-**2. Scatter Plot Review on Outliers**
+**2. Scatter Plot Review on Outliers-Based on---**
 
 <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/Identifying-Top-10-and-Bottom-10-Country-Spenders/Scatter%20plot%20new.png" width="500">
 
