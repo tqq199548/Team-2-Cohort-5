@@ -70,6 +70,7 @@ This project analyzes global pharmaceutical drug spending trends, comparing expe
 
 👉 [Click here to view the Pharmaceutical Spending Map] https://tqq199548.github.io/pharma-map/
 
+
 **🗨Data Set Q&A**
 | Question                                                 | Analysis                                     |
 |:---------------------------------------------------------|:---------------------------------------------|
