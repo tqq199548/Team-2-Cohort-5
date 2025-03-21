@@ -115,7 +115,7 @@ To complement the pivot table, we also generated a summary table that lists, for
 
 **1. Identify Top 10 and Bottom 10 Countries (based on USD per capita pharmaceutical spending):**
 
-**-Top 10 Countries:** 
+**Top 10 Countries:** 
 
 <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Top%2010%20spenders.png" width="500">
 
