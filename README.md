@@ -123,6 +123,8 @@ To complement the pivot table, we also generated a summary table that lists, for
 
 The USA leads significantly, with the highest per capita spending Other high spenders include: Malta (MLT) → A comparatively smaller economy country with high per capita spending. Switzerland (CHE) → Known for its robust healthcare system. France (FRA) → Major European economy with steady healthcare investments
 
+------------
+
 **-Bottom 10 Countries:**
 
 <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Bottom%2010%20spenders.png" width="500">
@@ -132,6 +134,8 @@ The USA leads significantly, with the highest per capita spending Other high spe
 
 Gradual Increase: The spending increases gradually from the top to the bottom of the list, with the last country on the list having the highest spending among these ten, approaching 400 USD. The list includes a mix of countries from different regions, such as Europe (Croatia, Estonia, Denmark), the Middle East (Israel), and Latin America (Chile, Brazil, Mexico, Costa Rica, Colombia). This indicates that low spending per capita is not confined to one specific region but is a global issue.
 
+-------
+
 **2. Scatter Plot Review on Outliers**
 
 <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/Identifying-Top-10-and-Bottom-10-Country-Spenders/Scatter%20plot%20new.png" width="500">
@@ -140,7 +144,7 @@ Gradual Increase: The spending increases gradually from the top to the bottom of
 
 The USA shows exceptionally high pharmaceutical spending per capita (730 USD) despite a low GDP percentage (1.6%), indicating disproportionate spending and BGR (Bulgaria) exhibits significantly low spending (461 USD),despite allocating 2.5% of its GDP, making it an outlier on the lower end. BY examining the scatter plot, most of the data points form an upward-sloping pattern, as GDP% increases, pharmaceutical spending per capita generally rises, indicating a positive correlation.
 
-
+-----------
 
 **3. Clustering Analysis**
 
@@ -248,12 +252,12 @@ Cluster 0 & 1 show a mix of developed & developing economies, indicating varying
 
 **3️⃣ The USA is a Significant Outlier**
 
-The USA has exceptionally high pharmaceutical spending, standing alone in some clusters.
+The USA has exceptionally high pharmaceutical spending, standing alone in some clusters (US per capital spending more than doubled compared to some developed countries).
 Possible reasons: Higher drug prices, private healthcare dominance, and patent-protected medications.
 
 **4️⃣ Spending vs. Health Outcomes**
 
-Higher pharmaceutical spending positively correlates with better healthcare quality rankings and life expectancy.
+Higher per capital spending positively correlates with better healthcare quality rankings and life expectancy.
 However, inefficiencies exist, as some high-spending countries do not always have the best healthcare outcomes.
 
 # **📈Recommendations**
