@@ -134,32 +134,52 @@ Gradual Increase: The spending increases gradually from the top to the bottom of
 
 **2. Scatter Plot Review on Outliers**
 
-<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Scatter%20plot.png" width="500">
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/Identifying-Top-10-and-Bottom-10-Country-Spenders/Scatter%20plot%20new.png" width="500">
 
 **Key Observations:**
 
-PC_GDP vs USD_CAP (Outliers Highlighted): The scatter plot reveals a general positive trend between avg PC_GDP and avg USD_CAP, **indicating that higher GDP per capita is associated with higher capital expenditure**. Outliers, highlighted in red, are primarily concentrated at higher avg PC_GDP values (around 1.5 to 2.0), with significantly higher avg USD_CAP values compared to the rest of the data. These outliers correspond to specific years and locations (e.g., USA in recent years), **suggesting unique economic conditions or policies that result in exceptionally high capital expenditure.**
+The USA shows exceptionally high pharmaceutical spending per capita (730 USD) despite a low GDP percentage (1.6%), indicating disproportionate spending and BGR (Bulgaria) exhibits significantly low spending (461 USD),despite allocating 2.5% of its GDP, making it an outlier on the lower end. BY examining the scatter plot, most of the data points form an upward-sloping pattern, as GDP% increases, pharmaceutical spending per capita generally rises, indicating a positive correlation.
 
 
-**4. Clustering Analysis**
 
-The primary purpose of Clustering Analysis is to:
+**3. Clustering Analysis**
 
-1.Identify patterns of data that may not be immediately apparent
+**Elbow Plot Review** 
 
-2.Segment data into meaningful sub-group or clusters, allowing for more focused analysis & decision making
+The primary purpose of Elbow Plot Review is to:
 
-3.Facilitate further data exploration that could lead to new insights & discoveries.
+1. Identify the Optimal k
+   
+2. Avoid Overfitting or Underfitting
 
-Clustering Analysis for the following feature pairs:
+3. Improve Interpretability of Clusters
 
-1.PC_GDP & PC_HEALTHXP  
-2.USD_CAP & PC_GDP      
-3.USD_CAP & TOTAL_SPEND 
+<p align="center">
+    <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Elbow%20Method%20For%20Optimal%20k%20(USD_CAP%20%26%20TOTAL_SPEND).png" width="400" height="300">
+    <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Elbow%20Method%20For%20Optimal%20k%20with%20Line%20for%20k%3D3%20(PC_GDP%20%26%20PC_HEALTHXP).png" width="400" height="300">
+    <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Elbow%20Method%20For%20Optimal%20k%20with%20Line%20for%20k%3D3%2C%20USD_CAP%20%26%20PC_GDP.png" width="400" height="300">
+</p>
 
-**Clustering Analysis for PC_GDP & PC_HEALTHXP, the optimal k=3.**
+**Primary purpose of Clustering Analysis:**
 
-<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Scatter%20Plot%20of%20PC_GDP%20vs%20PC_HEALTHXP%20(k%3D3).png" width="500">
+1. Identify patterns of data that may not be immediately apparent
+
+2. Segment data into meaningful sub-group or clusters, allowing for more focused analysis & decision making
+
+3. Facilitate further data exploration that could lead to new insights & discoveries.
+
+
+
+**Clustering Analysis for the following feature pairs:**
+
+1. PC_GDP & PC_HEALTHXP
+2. USD_CAP & PC_GDP
+3. USD_CAP & TOTAL_SPEND
+
+---------------------------
+**Clustering Analysis for PC_GDP & PC_HEALTHXP, optimal k=3**
+
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Scatter%20Plot%20of%20PC_GDP%20vs%20PC_HEALTHXP%20(k%3D3).png" width="800">
 
 **Oberservation:** 
 
@@ -169,9 +189,11 @@ Cluster 1: ['BRA', 'CAN', 'CZE', 'DEU', 'ESP', 'FRA', 'HRV', 'ITA', 'JPN', 'KOR'
 
 Cluster 2: ['BGR', 'GRC', 'HUN']
 
-**Clustering Analysis for USD_CAP & PC_GDP,the optimal k=3.**
+----------------------------
 
-<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Scatter%20Plot%20of%20PC_GDP%20vs%20USD_CAP%20(k%3D3).png" width="500">
+**Clustering Analysis for PC_GDP & USD_CAP, optimal k=3**
+
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Scatter%20Plot%20of%20PC_GDP%20vs%20USD_CAP%20(k%3D3).png" width="800">
 
 
 **Oberservation:** 
@@ -182,12 +204,10 @@ Cluster 1: ['BGR', 'GRC', 'HRV', 'HUN', 'KOR', 'LTU', 'LVA', 'MEX', 'POL', 'ROU'
 
 Cluster 2: ['CAN', 'CHE', 'DEU', 'FRA', 'JPN', 'MLT', 'USA']
 
-It is evident that Cluster 0 & 1 consist of both developed & developing countrie, whereas Cluster 2 is mostly developed countries.
+-----------------------------
+**Clustering Analysis for USD_CAP & TOTAL_SPEND (with USA data), optimal k=3**
 
-
-**Clustering Analysis for USD_CAP & TOTAL_SPEND (with USA data) , the optimal K=3**
-
-<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Scatter%20Plot%20of%20USD_CAP%20vs%20TOTAL_SPEND%20(k%3D3).png" width="500">
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Scatter%20Plot%20of%20USD_CAP%20vs%20TOTAL_SPEND%20(k%3D3).png" width="800">
 
 
 **Oberservation:** 
@@ -198,22 +218,19 @@ Cluster 1 for k=3: ['USA']
 
 Cluster 2 for k=3: ['CAN', 'DEU', 'FRA', 'JPN']
 
+--------------------------------------------
+**Clustering Analysis for USD_CAP & TOTAL_SPEND (WITHOUT USA data), optimal k=3**
 
-**Clustering Analysis for USD_CAP & TOTAL_SPEND (WITHOUT USA data) , the optimal K=3**
-
-<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Scatter%20Plot%20of%20USD_CAP%20vs%20TOTAL_SPEND%20(k%3D3)%20EXCLUDE%20USA.png" width="500">
-
+<img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Scatter%20Plot%20of%20USD_CAP%20vs%20TOTAL_SPEND%20(k%3D3)%20EXCLUDE%20USA.png" width="800">
 
 **Oberservation:** 
 
+Cluster 1: BRA, COL, CRI, CYP, DNK, EST, HRV, ISR, LVA, MEX, NLD, NOR, POL, PRT, ROU
 
-**Elbow Method Review** 
+Cluster 2: CAN, DEU, FRA, JPN
 
-<p align="center">
-    <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Elbow%20Method%20For%20Optimal%20k%20(USD_CAP%20%26%20TOTAL_SPEND).png" width="300">
-    <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Elbow%20Method%20For%20Optimal%20k%20with%20Line%20for%20k%3D3%20(PC_GDP%20%26%20PC_HEALTHXP).png" width="300">
-    <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Elbow%20Method%20For%20Optimal%20k%20with%20Line%20for%20k%3D3%2C%20USD_CAP%20%26%20PC_GDP.png" width="300">
-</p>
+Cluster 3: AUS, AUT, BEL, BGR, CHE, CZE, ESP, FIN, GBR, GRC, HUN, IRL, ISL, ITA, KOR, LTU, LUX, MLT, SVK, SVN, SWE
+
 
 
 # **🏁Key Findings from the Analysis📌**
