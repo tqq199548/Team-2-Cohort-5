@@ -256,6 +256,14 @@ Cluster 2: CAN, DEU, FRA, JPN
 
 Cluster 3: AUS, AUT, BEL, BGR, CHE, CZE, ESP, FIN, GBR, GRC, HUN, IRL, ISL, ITA, KOR, LTU, LUX, MLT, SVK, SVN, SWE
 
+-----------------
+
+## **Correlation of per cap spending with health metric
+
+<p align="center">
+    <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Linear%20Regression%20Per%20Capita%20Spend%20Rank%20vs%20Health%20Quality%20Rank%202020.png" width="450">
+    <img src="https://github.com/tqq199548/Team_2_Pharmaceutical_Drug_Spending_by_Countries/blob/main/Backup-Pictures/Linear%20Regression%20Per%20Capita%20Spend%20Rank%20vs%20Life%20Expectancy%20Rank.png" width="450">
+</p>
 
 
 # **🏁Key Findings from the Analysis📌**
